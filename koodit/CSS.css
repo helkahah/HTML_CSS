@@ -1,4 +1,4 @@
-/* navigation,header */
+/* yleinen rakenne */
 header{
   display: flex;
   background-color: #BFEAF5;
@@ -49,7 +49,19 @@ li a:hover{
 .main{
   width: 90%;
   margin: auto;
-  background-image: url("Sky-background-1920x1080.jpg");
+
+  background-image: linear-gradient(to bottom, rgb(240, 255, 255, 0), rgb(234, 253, 252, 1)),url("wp9226152.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+.main_2{
+  width: 90%;
+  margin: auto;
+  background-image: linear-gradient(to top, rgb(240, 255, 255, 0), rgb(234, 253, 252, 1)),url("wp9226152.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 10%;
 }
 
@@ -97,7 +109,7 @@ body{
   height: 400px;
 }
 
-/* galleria */
+/* products galleria */
 
 div.gallery{
   display: flex;
@@ -132,4 +144,28 @@ div.galleria img{
   margin-top: 2%;
   margin-bottom: 30%;
   text-align: left;
+}
+
+/* Contact */
+
+h3{
+  text-align: left;
+  font-size: 30px;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+div.contact{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.con_text{
+  padding-right: 7%;
+  text-align: left;
+}
+
+iframe{
+
 }
