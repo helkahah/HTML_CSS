@@ -1,0 +1,135 @@
+/* navigation,header */
+header{
+  display: flex;
+  background-color: #BFEAF5;
+  height: fit-content;
+}
+
+.logo{
+  height: 60px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+nav{
+  margin-left: auto;
+}
+
+.active{
+  background-color: #82AAE3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAFDFC;
+  text-decoration: none;
+  margin: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 23px;
+  background-color: #BFEAF5;
+  font-size: large;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #91D8E4;
+}
+
+/* Main content */
+
+.main{
+  width: 90%;
+  margin: auto;
+  background-image: url("Sky-background-1920x1080.jpg");
+  padding-bottom: 10%;
+}
+
+.container{
+  background-color: azure;
+}
+
+h1{
+  margin-top: 300px;
+  font-size: 60px;
+  position: center;
+}
+
+h2{
+  margin-left: 7%;
+  text-align: left;
+  margin-top: 5%;
+  font-size: 60px;
+  margin-bottom: 1%;
+}
+
+.main_text{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 20px;
+}
+
+.product_text{
+  padding-left: 5%;
+  padding-right: 15%;
+  font-size: 25px;
+  text-align: left;
+}
+
+body{
+  font-family: sans-serif, Calibri;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.banner {
+  image-resolution: normal;
+  width: 90%;
+  height: 400px;
+}
+
+/* galleria */
+
+div.gallery{
+  display: flex;
+  margin: 10%;
+}
+
+div.galleria{
+  background-color: azure;
+  margin: 1%;
+}
+.pic_name{
+  margin-left: 4%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  text-align: left;
+  font-size: 20px;
+}
+div.galleria img{
+  width: 300px;
+  height: 500px;
+}
+
+.pic_desc{
+  margin-bottom: 3%;
+  text-align: left;
+  margin-left: 4%;
+  opacity: 0.6;
+}
+
+.desc{
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 30%;
+  text-align: left;
+}
